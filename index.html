@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help Return My Item</title>
+    <meta name="description" content="Lost Item Recovery Page. If you found this item, please contact the owner here.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <div class="logo">
+                <!-- Simple Leaf SVG -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                <span class="site-title">Return My Item</span>
+            </div>
+            <span class="site-label">Lost Item Recovery Page</span>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <div class="intro-icon">
+                <!-- Box/Item SVG -->
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <h1 class="main-heading">Found My Belonging?</h1>
+            <p class="intro-text">Thank you for finding my item! This belonging has an owner, and I would really appreciate your help returning it. You can reach me using any of the contact options below.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section">
+            <div class="contact-grid">
+                
+                <!-- Facebook Card -->
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </div>
+                    <h2>Facebook</h2>
+                    <p class="detail-text" id="fb-name-display">Loading...</p>
+                    <button id="btn-facebook" class="primary-btn">Open Facebook Profile</button>
+                </div>
+
+                <!-- Phone Card -->
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    </div>
+                    <h2>Phone Number</h2>
+                    <p class="detail-text" id="phone-display">Loading...</p>
+                    <div class="button-group">
+                        <button id="btn-call" class="primary-btn">Call Owner</button>
+                        <button id="btn-copy-phone" class="secondary-btn">Copy Number</button>
+                    </div>
+                </div>
+
+                <!-- Email Card -->
+                <div class="contact-card">
+                    <div class="card-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2" ry="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    </div>
+                    <h2>Email Address</h2>
+                    <p class="detail-text" id="email-display">Loading...</p>
+                    <button id="btn-email" class="primary-btn">Send Email</button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Instructions Section -->
+        <section class="instructions-section">
+            <h2>How You Can Help</h2>
+            <ol class="steps-list">
+                <li>Choose any available contact method above.</li>
+                <li>Let me know which item you found.</li>
+                <li>We can arrange a convenient and safe way to return it.</li>
+            </ol>
+        </section>
+
+        <!-- Thank You Section -->
+        <section class="appreciation-section">
+            <p>Your honesty and kindness mean a lot. Thank you for taking the time to help return my belonging!</p>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p class="footer-title">Return My Item</p>
+        <p>Made to help lost belongings find their way home.</p>
+        <p class="copyright">&copy; <span id="current-year"></span></p>
+    </footer>
+
+    <!-- Toast Notification for Copying Phone Number -->
+    <div id="toast" class="toast">Number copied to clipboard!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
